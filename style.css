@@ -1,0 +1,183 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #000000;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='49' viewBox='0 0 28 49'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='hexagons' fill='%23ead412' fill-opacity='0.07' fill-rule='nonzero'%3E%3Cpath d='M13.99 9.25l13 7.5v15l-13 7.5L1 31.75v-15l12.99-7.5zM3 17.9v12.7l10.99 6.34 11-6.35V17.9l-11-6.34L3 17.9zM0 15l12.98-7.5V0h-2v6.35L0 12.69v2.3zm0 18.5L12.98 41v8h-2v-6.85L0 35.81v-2.3zM15 0v7.5L27.99 15H28v-2.31h-.01L17 6.35V0h-2zm0 49v-8l12.99-7.5H28v2.31h-.01L17 42.15V49h-2z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    color: #F9FAF8;
+    font-family: 'Hubballi', cursive;
+    font-family: 'Roboto Serif', serif;
+    font-family: 'Smooch Sans', sans-serif;
+}
+
+header {
+    padding: 5px 50px 30px 50px;
+}
+
+.logo {
+    height: 150px;
+    width: 150px;
+}
+.header-logo{
+    font-size: 24px;
+    color:#F9FAF8;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    
+    
+}
+.button {
+    color:#F9FAF8;
+    margin-top: 0px;
+    padding: 10px 30px;
+    border-radius: 10%;
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+li{
+    margin-left: 20px;
+    margin-right: 20px;
+    list-style: none;
+    
+}
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB; 
+}
+h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bold;
+
+}
+.hero-left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content:center;  
+    padding-bottom: 50px;
+    text-align: center;
+    gap: 30px;
+}
+
+
+#header-image {
+   height: auto;
+   width: 25em;
+   max-width: 100%;
+   display: block
+   margin: 0 auto;
+   border-radius: 1%;
+
+}
+
+#image-div {
+
+    padding: 10px 5px 10px 2px;
+}
+
+#main {
+  width:90%;
+  margin:auto;
+
+}
+
+.information {
+  margin: 70px 0px 50px 0px;
+}
+
+.center-image {
+    width: 200px;
+    height: 200px;
+    max-width: 100%;
+    border: 5px solid rgba(11, 110, 240, 0.185) ;
+    border-radius: 5%;
+    margin-bottom: 20px;
+    
+}
+
+header, footer {
+    background: #000000;   
+}
+
+.hero-secondary {
+     font-size: 18px;
+     color: #E5E7EB;
+     padding: 0px 5px 5px 0px;
+ }
+
+  button {
+     background-color: #3881f677;  
+ }
+
+ h2 {
+     font-size: 36px;
+     font-weight: heavy;
+     text-align: center;
+     padding: 100px 0px 50px 0px;
+ }
+
+
+ #thor {
+    text-align: right;
+    font-size: 36px;
+}
+
+ .quote {
+     background-color: rgba(229, 231, 235, 0.657);
+     margin: 20px 0px 20px 0px;
+     padding: 200px 300px;
+     font-size: 36px;
+     font-style: italic;
+     color: #1F2937;
+     text-align: justify;
+     box-sizing: border-box;
+     border-radius: 1%;
+ }
+
+
+
+.action { 
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 80px;
+    color: #F9FAF8;
+    margin: 50px 0px;
+    max-width: 100%;
+    height: 100px;
+    background-color: #000000;
+    background-image: url("images/quote2");
+    
+    
+}
+
+footer{
+    color: #F9FAF8;
+    text-align: center;
+    padding: 20px;
+}
+
+@media (max-width: 700px) {
+    #header, .quote {
+        width: 80%;
+    }
+}
